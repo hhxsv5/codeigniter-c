@@ -52,8 +52,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
-$route['admin/dashboard'] = 'admin/index/home'; //后台首页
-$route['admin/login'] = 'admin/index/login'; //后台登录
-$route['admin/logout'] = 'admin/index/logout'; //后台登出
-$route['admin/verifyCode'] = 'admin/index/verifyCode'; //后台验证码
