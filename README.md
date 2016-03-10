@@ -1,4 +1,5 @@
 # My customized CodeIgniter
+## CI version: 3.0.4
 ## Implements:
 1. core controller class `MY_Controller`
 	- getRequest()
