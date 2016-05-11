@@ -59,4 +59,4 @@
 3. core router class `MY_Router`: support controller class name format "XxxController" and action name format "actionYyy"
 4. core output class `MY_Output`: support output JSON string
 5. library: `Request`, `AbstractUserIdentity`,`AdminUserIdentity`
-6. views: split layout from viwe, keep layout in folder `layouts`.
+6. views: split layout from view, keep layout in folder `layouts`.
