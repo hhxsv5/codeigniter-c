@@ -370,7 +370,7 @@ $config['encryption_key'] = 'igniter';
 $config['sess_driver'] = ENVIRONMENT === 'production' ? 'redis' : 'files';
 $config['sess_cookie_name'] = 'SID';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = ENVIRONMENT === 'production' ? 'tcp://127.0.0.1:6379?database=1' :  NULL;
+$config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = TRUE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
